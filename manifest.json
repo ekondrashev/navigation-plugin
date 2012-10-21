@@ -1,0 +1,14 @@
+{
+  "name" : "tree_navigation",
+  "version" : "1.0",
+  "description" : "",
+  "content_scripts" : [ {
+    "matches" : ["file://*/*"], 
+    "js" : ["refs/jquery-1.7.2.min.js", "content.js"],
+    "css" : ["refs/style.css"] 
+  }],
+  "permissions": [
+   "tabs",
+   "file://*/*"
+  ]
+}

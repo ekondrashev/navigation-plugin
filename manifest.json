@@ -1,6 +1,7 @@
 {
   "name" : "tree_navigation",
-  "version" : "1.0",
+  "version": "1.0",
+  "manifest_version" : 2,
   "description" : "",
   "content_scripts" : [ {
     "matches" : ["file://*/*"], 
@@ -8,7 +9,6 @@
     "css" : ["refs/style.css"] 
   }],
   "permissions": [
-   "tabs",
    "file://*/*"
   ]
 }
